@@ -1,6 +1,4 @@
 
-import java.util.*;
-
 /**
  * 
  */
@@ -23,7 +21,7 @@ public class VolunteerHandler {
      * @param numberOfRequiredVolunteers 
      * @param numberOfVolunteersApplied
      */
-    public void checkVolunteerCount(void numberOfRequiredVolunteers, void numberOfVolunteersApplied) {
+    public void checkVolunteerCount(int numberOfRequiredVolunteers, int numberOfVolunteersApplied) {
         // TODO implement here
     }
 
@@ -31,7 +29,7 @@ public class VolunteerHandler {
      * @param description 
      * @param skills
      */
-    public void verifyVolunteerSkills(void description, void skills) {
+    public void verifyVolunteerSkills(String description, int skills) {
         // TODO implement here
     }
 

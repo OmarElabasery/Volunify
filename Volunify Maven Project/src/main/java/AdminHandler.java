@@ -1,5 +1,4 @@
 
-import java.util.*;
 
 /**
  * 
@@ -50,7 +49,7 @@ public class AdminHandler {
     /**
      * @param rating
      */
-    public void enterFeedback(void rating) {
+    public void enterFeedback(int rating) {
         // TODO implement here
     }
 

@@ -1,5 +1,4 @@
 
-import java.util.*;
 
 /**
  * 
@@ -16,7 +15,7 @@ public class EventHandler {
      * @param numberOfRequiredVolunteers 
      * @param numberOfVolunteersApplied
      */
-    public void updateEvent(void numberOfRequiredVolunteers, void numberOfVolunteersApplied) {
+    public void updateEvent(int numberOfRequiredVolunteers, int numberOfVolunteersApplied) {
         // TODO implement here
     }
 

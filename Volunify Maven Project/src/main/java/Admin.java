@@ -1,5 +1,4 @@
 
-import java.util.*;
 
 /**
  * 
@@ -15,12 +14,12 @@ public class Admin extends User {
     /**
      * 
      */
-    private string first_name;
+    private String first_name;
 
     /**
      * 
      */
-    private string last_name;
+    private String last_name;
 
     /**
      * @param id 
@@ -31,7 +30,7 @@ public class Admin extends User {
      * @param location 
      * @param numberOfRequiredVolunteers
      */
-    public void createEvent(void id, void name, void domain, void description, void time, void location, void numberOfRequiredVolunteers) {
+    public void createEvent(int id, String name, String domain, String description, String time, String location, int numberOfRequiredVolunteers) {
         // TODO implement here
     }
 
@@ -50,7 +49,7 @@ public class Admin extends User {
      * @param location 
      * @param numberOfRequiredVolunteers
      */
-    public void approveEventCreation(void name, void domain, void description, void time, void location, void numberOfRequiredVolunteers) {
+    public void approveEventCreation(int name, String domain, String description, String time, String location, int numberOfRequiredVolunteers) {
         // TODO implement here
     }
 
@@ -64,15 +63,23 @@ public class Admin extends User {
     /**
      * 
      */
-    public void setters() {
-        // TODO implement here
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
     }
 
-    /**
-     * 
-     */
-    public void getters() {
-        // TODO implement here
+    // Getter for first_name
+    public String getFirst_name() {
+        return first_name;
+    }
+
+    // Setter for last_name
+    public void setLast_name(String last_name) {
+        this.last_name = last_name;
+    }
+
+    // Getter for last_name
+    public String getLast_name() {
+        return last_name;
     }
 
 }
